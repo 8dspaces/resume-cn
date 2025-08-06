@@ -1,21 +1,21 @@
 meta:
   direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
-  language: en              # text language, the value is HTML lang attribute value, default is "en"
+  language: zh-CN           # text language, the value is HTML lang attribute value, default is "en"
 
 basic:
-  name: Mick Qi                     # name
-  title: QA Manager | SDET | Python Developer           # job title 
+  name: 祁晓艳                        # name
+  title: 软件开发测试工程师  |  Python开发工程师 ｜ 质量保证团队负责人        # job title 
   avatar:
     show: false                       # show or hide avatar
     path: /images/profile.png        # file path or link to your avatar
 
 contact:
   location:   # location, text or markdown link syntax
-  email: mickqi0527@outlook.com    # email address
-  phone: +86-137XXXXX5216  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  email: #mickqi0527@outlook.com    # email address
+  phone: +86-13764155216  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:       # site link without schema, like example.com, will automatically prepend "https://"
 
-  gender: Male                    # gender or pronoun
+  gender: 男                    # gender or pronoun
   birthday:               # birthday
   nationality:              # nationality
   visa:                     # passport visa
@@ -102,19 +102,20 @@ contact:
 evaluation:
   show: true
   order: 1
-  title: Self-evaluation
+  title: 自我评价
   description: |
-    - Result oriented professional with **18** years experience in Tetsing, Quality Assurance, Automtion and TestOps
-    - Expertise in **Equity Derivatives**, with a deep understanding of pre-trade, post-trade, risk, and data areas
-    - Strong experience in **automation architecture and implementation** against various applications and technology
-    - Proven track record of **leading and managing QA teams**, extended to manage global QA team
-    - Strong experience in **Python** and **Java** programming languages, with a focus on test automation and development
-    - Passsion and hands on with new technologies, with a strong interest on **AI** / **TestOps**
+    - **18年**软件开发，测试、自动化经验，以结果导向为核心，致力于交付高质量的软件产品
+    - 10年以上全球一线投行的开发测试落地实践，深入理解软件开发生命周期，对中大型项目快速落地有丰富经验
+    - 在**股票衍生品**领域具有深厚专业知识，对股票衍生品交易前台、中台、风险管理，数据处理等各个环节都有深入的理解
+    - 一线投行股票衍生品部门全球测试团队负责人，具备**领导和管理QA/测试开发团队**的丰富实践
+    - 精通**Python**和**Java**编程语言，专注于测试自动化和软件开发
+    - 对新技术充满热情并具备卓越的实践能力，对**人工智能**和AI驱动的软件开发各阶段实践都有积极实践和跟进
+    - 具备跨职能协作能力，能够在复杂的金融科技环境中推动质量改进和流程优化
 
 profile:
   show: false
   order: 3
-  title: Profile
+  title: 个人简介
   description: |
     The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
 
@@ -123,101 +124,107 @@ profile:
 experience:
   show: true
   order: 2
-  title: Experiences
+  title: 工作经历
   description: |
 
   items:
-    - company: Citigroup Secvices and Technology (China) Ltd.(CSTC)
+    - company: 花旗集团金融技术（中国）有限公司 (CSTC)
       link: 
-      tags: Full-time
-      date: 2012.12 - Present
-      role: VP, QA Manager, Global QA Head of Equity Derivatives
-      location: Shanghai
+      tags: 全职
+      date: 2012.12 - 至今
+      role: 副总裁(VP)，质量保证经理，股票衍生品全球QA团队负责人
+      location: 上海
       description: |
-        + Build up QA Team from scratch, and grow it to **30+** members, and take responsibility of **global** QA team
-        + Take ownership of **Equity Derivatives** QA testing, including **PreTrade**, **PostTrade**, **Risk**, and **Data** areas
-        + Collaborate with cross-functional teams to ensure high-quality software delivery for comprehensive projects
-        + Drive and involve the **automation strategy and implementation**, evoluting the automation architecture on different projects
-        + Streamline test process, monitor all test events around quality, measure and improve the quality of deliverables 
-        + Foster a culture of quality and excellence within the QA team, shift left and right to rethinking the quality
+        + 从零开始建立QA团队，将团队规模发展至**40+**人，并承担**全球**QA团队的管理责任
+        + 全面负责**股票衍生品**质量保证测试/测试开发工作，涵盖**前台**、**中台**、**风险管理**和**数据处理**等核心业务领域
+        + 与跨职能团队密切协作，确保大型综合项目的高质量软件交付
+        + 主导并参与**自动化策略制定与实施**，在不同项目中持续演进自动化架构设计
+        + 优化测试流程，监控所有质量相关测试事件，量化评估并持续改进交付物质量
+        + 在QA团队中培养质量和卓越文化，推行左移和右移测试理念，重新定义质量标准
+        + 建立完善的质量度量体系，通过数据驱动的方式提升团队效率和产品质量
 
-    - company: Autodesk
+    - company: 欧特克软件（中国）有限公司 (Autodesk)
       link:
-      tags: Full-time
+      tags: 全职
       date: 2007.07 - 2012.10
-      role: QA Engineer
-      location: Shanghai
+      role: 质量保证工程师
+      location: 上海
       description: |
-        + Work as QA engineer in Autodesk Invendor design software, take ownership of Modeling part 
-        + Invoved UI automation framework setup and implementation based on TestComplete and VBS
-        + Developed and maintained test cases, test plans, and test scripts for functional, regression, and performance testing
-        + Collaborated with development teams to identify and resolve defects, ensuring high-quality software delivery
+        + 担任Autodesk Inventor设计软件的QA工程师，负责建模模块的质量保证工作
+        + 参与基于TestComplete和VBS的UI自动化框架搭建与实施
+        + 开发和维护功能测试、回归测试和性能测试的测试用例、测试计划和测试脚本
+        + 与开发团队协作识别和解决缺陷，确保高质量的软件交付
+        + 建立并完善测试标准和流程，为团队质量提升奠定基础
 
 project:
   show: true
   order: 3
-  title: Key Focus and Deliveries
+  title: 核心项目与成果
   description: |
   items:
-    - name: Equity Derivatives QA Transformation
+    - name: 股票衍生品QA团队效能转型 
       link: '#'
-      tags: architector
-      date: 2023 - Present
+      tags: 架构师
+      date: 2023 - 至今
       description: |
-        Along with the keep growing business and small size of QA team, QA team need to keep evolving on Quality and Efficiency to meet the business needs, and the transformation is a must.
-        + Build up QA strategy and roadmap for the transformation
-        + Build cross-functional domain knowledge, to ensure the QA team can cover the business needs
-        + Focus on the **automation architecture**, to ensure automation as service can be used by all teams
-        + Monitor the quality of deliverables, and provide metrics to measure the quality
-        + Standarlize the QA process, include Shift Left and Right in the whole lifecycle
+        随着业务持续增长和QA团队规模相对较小的现状，QA团队需要在质量和效率方面持续演进以满足业务需求，数字化转型势在必行。
+        + 制定QA转型战略和路线图，确保转型方向与业务目标一致
+        + 构建跨职能领域知识体系，确保QA团队能够覆盖所有业务需求
+        + 专注于**自动化架构**设计，确保自动化即服务能够被所有团队使用
+        + 监控交付物质量，提供量化指标来衡量质量水平
+        + 标准化QA流程，在整个生命周期中实施左移和右移测试策略
+        + 建立质量文化和持续改进机制，推动组织级质量提升
         
 
-    - name: QA Automation architecture and implementation
+    - name: QA自动化架构设计与演进
       link:
-      tags: architector, committer
-      date:
+      tags: 架构师, 核心贡献者
+      date: 2018 - 至今
       description: |
-        Automation is the key part to keep improving team's efficiency, heavily involved on varoopus automation architecture discussion and implementation
-        + Build up the standard of automation as a service for all applcations and services 
-        + Automation can be run by schedule, Ad-hoc trigger, and automatically triggered by CI/CD pipeline
-        + Build up low-coding API automation automation to align the high volume of microservices and frequent changes
-        + Build cross services/applications automation to 
-        + Build up sanity automation from UI level to ensure user facing key workflows are covered 
-        + Build up peformance atomation for performance sensitive areas, such as trade booking, pre-booing contro, pricing, etc.
-        + Improve the Diff(Recon) based automation solution to cover the change sensitive areas (Modeling, Regulatory, etc.)
+        自动化是持续提升团队效率的关键要素，深度参与各种自动化架构讨论和实施工作
+        + 建立自动化即服务的标准，为所有应用程序和服务提供统一的自动化解决方案
+        + 支持定时调度、临时触发和CI/CD流水线自动触发等多种执行方式
+        + 构建低代码API自动化平台，以适应大量微服务和频繁变更的业务需求
+        + 建立跨服务/应用程序的端到端自动化测试体系，确保业务流程完整性
+        + 构建UI层面的冒烟测试自动化，确保面向用户的关键工作流程得到覆盖
+        + 为性能敏感领域（如交易预订、交易前控制、定价等）建立性能自动化测试
+        + 改进基于差异对比(Recon)的自动化解决方案，覆盖变更敏感领域（建模、监管等）
+        + 建立自动化测试结果分析和报告体系，提供可视化的质量洞察
 
 
-    - name: Mondo (QA Proecess streamline and monitoring) 
+    - name: Mondo (QA流程优化与监控平台)
       link:
-      tags: founder
-      date: 2020 - Present
+      tags: 创始人
+      date: 2020 - 至今
       description: |
-        "If You Can’t Measure It, You Can’t Improve It", **Mondo** is an internal QA platform based on the philosophy, group all QA qualities and events data in same place, metrics, imporve and autome action
-        + Build up the platform from scratch, and become popular in Equity Derivatives QA team
-        + Group Releases / Automation / Environments / Test Cases / Defects / Metrics / QA Action in one place
-        + provide Dashboard , API, Data can be used by team and other tools 
-        + reduce the manual touch point and schedule the events 
+        "无法衡量就无法改进"，**Mondo**是基于这一理念构建的内部QA平台，将所有QA质量和事件数据集中管理，实现度量、改进和自动化操作
+        + 从零开始构建平台，在股票衍生品QA团队中广受欢迎
+        + 将发布管理、自动化测试、环境管理、测试用例、缺陷跟踪、质量度量、QA行动计划集中在一个平台
+        + 提供仪表板、API和数据服务，供团队和其他工具使用
+        + 减少手动操作接触点，实现事件的自动化调度和管理
+        + 建立质量趋势分析和预警机制，提前识别潜在质量风险
+        + 实现跨项目的质量数据对比和最佳实践分享 
 
-    - name: Equity Derivatives Key Project Deliver 
+    - name: 股票衍生品关键项目交付
       link:
-      tags: committer
-      date: 2021 - Present
+      tags: 核心贡献者
+      date: 2021 - 至今
       description: |
-        Equity Derivatives
-        + IBOR fallback project, a key project to ensure the business can smoothly transition from IBOR to Risk Free Rate (RFR)
-        + ELITE, build up new Equity Swap trading platform and onboard all new booking to the new platform
-        + Parametric OIS: Stadarlize the model based swap schedule logic cross various booking / post-trade systems
-        + Unity Onboaring: Implement unified Trade and Position idenfier on Equity Derivatives applications
-        + Secure Retirement: Retirement Old Instrument System for Equity Derivatives applications
-        + Regulatory Rewrite: MIFID II, EMIR, SFTR, etc. to ensure the business can comply with the regulations
-
+        股票衍生品业务关键项目的质量保证和交付管理
+        + **IBOR替代项目**：确保业务能够从IBOR平稳过渡到无风险利率(RFR)的关键项目
+        + **ELITE项目**：构建新的股票互换交易平台，将所有新交易迁移到新平台
+        + **参数化OIS项目**：标准化跨各种预订/交易后系统的基于模型的互换计划逻辑
+        + **Unity统一标识项目**：在股票衍生品应用程序中实施统一的交易和头寸标识符
+        + **Secure Retire项目**：为股票衍生品应用程序退役旧的工具系统
+        + **监管重写**：MIFID II、EMIR、SFTR等，确保业务符合监管要求
+    
 skill:
   show: true
   order: 5
-  title: Skills
+  title: 专业技能
   description: |
   groups:
-    - name: Programing Languages
+    - name: 编程语言
       item:
         - Python
         - Java
@@ -225,14 +232,14 @@ skill:
         - Javascript
         - TypeScript
         - Golang
-    - name: Frameworks
+    - name: 开发框架
       item:
         - Fastapi
         - Flask
         - Celery
         - Spring
         - HTTP4K
-    - name: Databases
+    - name: 数据库技术
       item:
         - PostgreSQL
         - Sybase
@@ -241,19 +248,19 @@ skill:
         - MongoDB
         - Ignite
         - S3
-    - name: Observability
+    - name: 可观测性工具
       item:
         - Grafana
         - ELK Stack
         - Splunk
         - Metabase
-    - name: DevOps
+    - name: DevOps工具
       item:
         - Docker
         - ECS
         - Jenkins
         - CI/CD
-    - name: Automation Frameworks
+    - name: 自动化测试框架
       item:
         - Pytest
         - Robot Framework
@@ -268,15 +275,16 @@ skill:
 education:
   show: true
   order: 5
-  title: Education
+  title: 教育背景
   description: |
   items:
-    - institution: Nanjing University of Aeronautics and Astronautics
+    - institution: 南京航空航天大学
       link: 
       date: 2003 - 2007
       major: 
-      degree: Bechelor
+      degree: 学士学位
       description: |
+
 
 
 certificate:
@@ -346,13 +354,13 @@ organization:
 language:
   show: true
   order: 11
-  title: Languages
+  title: 语言能力
   description: |
   items:
-    - idiom: Chinese
-      level: Native
-    - idiom: English
-      level: Professional
+    - idiom: 中文
+      level: 母语
+    - idiom: 英语
+      level: 专业级
 
 interest:
   show: false

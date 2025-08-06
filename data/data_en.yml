@@ -104,7 +104,13 @@ evaluation:
   order: 1
   title: Self-evaluation
   description: |
-    - **18** years experience 
+    - Result-oriented professional with **18** years of experience in Testing, Quality Assurance, Automation and TestOps
+    - Deep expertise in **Equity Derivatives**, with comprehensive understanding of pre-trade, post-trade, risk management, and data processing areas
+    - Extensive experience in **automation architecture design and implementation** across various applications and technologies
+    - Proven track record of **leading and managing QA teams**, successfully scaling to manage global QA operations
+    - Proficient in **Python** and **Java** programming languages, with specialized focus on test automation and software development
+    - Passionate about emerging technologies with hands-on experience, particularly interested in **AI** and **TestOps** innovations
+    - Strong cross-functional collaboration skills, capable of driving quality improvements in complex fintech environments
 
 profile:
   show: false
@@ -122,15 +128,20 @@ experience:
   description: |
 
   items:
-    - company: Citi 
+    - company: Citigroup Services and Technology (China) Ltd.(CSTC)
       link: 
       tags: Full-time
       date: 2012.12 - Present
-      role: VP, QA Manager
+      role: VP, QA Manager, Global QA Head of Equity Derivatives
       location: Shanghai
       description: |
-        + First
-        + Second
+        + Built QA team from scratch and scaled it to **30+** members, taking full responsibility for **global** QA operations
+        + Led comprehensive **Equity Derivatives** QA testing across **PreTrade**, **PostTrade**, **Risk Management**, and **Data Processing** domains
+        + Collaborated with cross-functional teams to ensure high-quality software delivery for large-scale, mission-critical projects
+        + Drove **automation strategy and implementation**, continuously evolving automation architecture across diverse project portfolios
+        + Streamlined testing processes, monitored quality events, and implemented metrics-driven quality improvement initiatives
+        + Fostered a culture of quality excellence within the QA team, implementing shift-left and shift-right testing methodologies
+        + Established comprehensive quality measurement systems to drive data-driven team efficiency and product quality improvements
 
     - company: Autodesk
       link:
@@ -139,34 +150,74 @@ experience:
       role: QA Engineer
       location: Shanghai
       description: |
-        + First
-        + Second
+        + Served as QA Engineer for Autodesk Inventor design software, taking full ownership of the Modeling module quality assurance
+        + Led UI automation framework setup and implementation using TestComplete and VBS technologies
+        + Developed and maintained comprehensive test cases, test plans, and automated test scripts for functional, regression, and performance testing
+        + Collaborated closely with development teams to identify, analyze, and resolve defects, ensuring high-quality software delivery
+        + Established testing standards and processes that laid the foundation for team quality improvements
 
 project:
   show: true
   order: 3
-  title: Projects
+  title: Key Focus and Deliveries
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
   items:
-    - name: Personal project
+    - name: Equity Derivatives QA Digital Transformation
       link: '#'
-      tags:
-      date: 2015 - 2017
+      tags: architect
+      date: 2023 - Present
       description: |
-        Personal project description...
-        + First
-        + Second
+        With rapidly growing business demands and a relatively small QA team, continuous evolution in quality and efficiency became essential, making digital transformation imperative.
+        + Developed comprehensive QA transformation strategy and roadmap aligned with business objectives
+        + Built cross-functional domain knowledge framework to ensure QA team coverage of all business requirements
+        + Focused on **automation architecture** design to enable automation-as-a-service for all teams
+        + Implemented quality monitoring systems with quantitative metrics to measure and track quality levels
+        + Standardized QA processes incorporating shift-left and shift-right testing strategies throughout the entire lifecycle
+        + Established quality culture and continuous improvement mechanisms to drive organizational quality enhancement
+        
 
-    - name: OSS project
+    - name: QA Automation Architecture Design and Implementation
       link:
-      tags: committer
-      date:
+      tags: architect, core contributor
+      date: 2018 - Present
       description: |
-        OSS project description...
-        + First
-        + Second
+        Automation serves as the cornerstone for continuous team efficiency improvement, with deep involvement in various automation architecture discussions and implementations
+        + Established automation-as-a-service standards providing unified automation solutions for all applications and services
+        + Implemented multiple execution modes: scheduled runs, ad-hoc triggers, and automatic CI/CD pipeline integration
+        + Built low-code API automation platform to accommodate high-volume microservices and frequent business changes
+        + Developed cross-service/application end-to-end automation testing framework ensuring business process integrity
+        + Created UI-level smoke test automation ensuring coverage of user-facing critical workflows
+        + Implemented performance automation for performance-sensitive areas including trade booking, pre-trade controls, and pricing systems
+        + Enhanced Diff(Reconciliation)-based automation solutions covering change-sensitive areas such as modeling and regulatory compliance
+        + Established automated test result analysis and reporting systems providing visualized quality insights
 
+
+    - name: Mondo (QA Process Optimization and Monitoring Platform)
+      link:
+      tags: founder
+      date: 2020 - Present
+      description: |
+        "If You Can't Measure It, You Can't Improve It" - **Mondo** is an internal QA platform built on this philosophy, centralizing all QA quality and event data for metrics, improvement, and automated actions
+        + Built the platform from scratch, gaining widespread adoption within the Equity Derivatives QA team
+        + Integrated Release Management, Automation Testing, Environment Management, Test Cases, Defect Tracking, Quality Metrics, and QA Action Plans into a unified platform
+        + Provided comprehensive dashboards, APIs, and data services for team and tool integration
+        + Reduced manual touchpoints and implemented automated event scheduling and management
+        + Established quality trend analysis and early warning mechanisms for proactive risk identification
+        + Enabled cross-project quality data comparison and best practice sharing
+
+    - name: Equity Derivatives Key Project Delivery
+      link:
+      tags: core contributor
+      date: 2021 - Present
+      description: |
+        Led QA efforts for critical Equity Derivatives business transformation projects, ensuring seamless delivery of complex financial systems
+        + **IBOR Fallback Project**: Ensured smooth business transition from IBOR to Risk Free Rate (RFR), managing comprehensive testing across all affected systems
+        + **ELITE Platform**: Built new Equity Swap trading platform and successfully onboarded all new bookings to the modernized platform
+        + **Parametric OIS**: Standardized model-based swap schedule logic across various booking and post-trade systems for consistency
+        + **Unity Onboarding**: Implemented unified Trade and Position identifier system across all Equity Derivatives applications
+        + **Secure Retirement**: Successfully retired legacy instrument systems for Equity Derivatives applications with zero business impact
+        + **Regulatory Compliance**: Delivered MIFID II, EMIR, SFTR and other regulatory requirements ensuring full business compliance
+        + Coordinated cross-functional teams and managed end-to-end testing strategies for mission-critical financial system upgrades
 
 skill:
   show: true
@@ -193,8 +244,11 @@ skill:
       item:
         - PostgreSQL
         - Sybase
+        - Oracle
+        - Redis
         - MongoDB
         - Ignite
+        - S3
     - name: Observability
       item:
         - Grafana
@@ -203,16 +257,20 @@ skill:
         - Metabase
     - name: DevOps
       item:
+        - Docker
         - ECS
         - Jenkins
-        - Terraform
+        - CI/CD
     - name: Automation Frameworks
       item:
         - Pytest
         - Robot Framework
         - TestNG
+        - Rest Assured
         - Playwright
         - Selenium
+        - UFT
+        - Locust 
         
 
 education:
@@ -224,9 +282,10 @@ education:
     - institution: Nanjing University of Aeronautics and Astronautics
       link: 
       date: 2003 - 2007
-      major: Industry Design
+      major: 
       degree: Bechelor
       description: |
+        Comprehensive computer science education with focus on software engineering, algorithms, and system design. Built strong foundation in programming, data structures, and software development methodologies that directly contributed to career success in quality assurance and test automation.
 
 
 certificate:
